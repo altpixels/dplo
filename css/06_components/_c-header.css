@@ -1,0 +1,256 @@
+.c-header__wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 89%;
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__wrapper {
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+.c-header__identity {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 64.3%;
+    margin: auto auto auto 3%;
+    float: left;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__identity {
+        width: 17.5%;
+        margin: 0;
+    }
+}
+
+.c-header__logo-wrapper {
+    width: 23.7%;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__logo-wrapper {
+        width: 100%;
+    }
+}
+
+.c-header__logo {
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__logo {
+        display: block;
+    }
+}
+
+.c-header__logo--mobile {
+    display: block;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__logo--mobile {
+        display: none;
+    }
+}
+
+.c-header__name-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53.9%;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__name-wrapper {
+        display: none;
+    }
+}
+
+.c-header__name {
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: var(--font-bold);
+}
+
+.c-header__menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__menu-icon {
+        display: none;
+    }
+}
+
+.c-header__menu-input {
+    display: none;
+}
+
+.c-header__menu {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__menu {
+        margin-top: 0;
+        width: 49%;
+    }
+}
+
+.c-header__menu-items-wrapper {
+    display: none;
+    flex-flow: column nowrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__menu-items-wrapper {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+[id^=btn]:checked + ul {
+    display: block;
+    transition: ease-in-out .3s;
+}
+
+.c-header__menu-item:hover > ul {
+    top: 50px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.c-header__menu-link {
+    color: var(--color-neutral-60);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    height: 56px;
+    width: 100%;
+    border-bottom: solid 1px var(--color-neutral-80);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__menu-link {
+        border-bottom: none;
+    }
+}
+
+.c-header__menu-link::after {
+    content: url(../../imagenes/icono-flecha-derecha-doble.svg);
+    position: absolute;
+    right: 0;
+    float: right;
+    height: 24px;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__menu-link::after {
+        display: none;
+    }
+}
+
+.c-header__menu-link:hover {
+    color: var(--color-neutral-80);
+} 
+
+.c-header__menu-item-icon {
+    width: 24px;
+    margin-right: 2.5%;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__menu-item-icon {
+        margin-right: 7.5%;
+    }
+}
+
+.c-header__menu-item-icon-plus {
+    display: none;
+    width: 90%;
+}
+
+.c-header__submenu-items-wrapper {
+    display: block;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__submenu-items-wrapper {
+        /* display: none; */
+        position: absolute;
+        top: 80px;
+        opacity: 0;
+        visibility: hidden;
+        background-color: rgb(255, 255, 255, .95);
+        transition: top .3s;
+        z-index: 1;
+    }
+}
+
+.c-header__submenu-input {
+    display: none;
+}
+
+.c-header__submenu-link {
+    color: var(--color-neutral-60);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    height: 48px;
+    padding-left: 7.5%;
+    width: 100%;
+    border-bottom: solid 1px var(--color-neutral-80);
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__submenu-link {
+        height: 60px;
+        padding-left: 0;
+    }
+}
+
+.c-header__submenu-link::after {
+    content: url(../../imagenes/icono-flecha-derecha.svg);
+    position: absolute;
+    right: 7.5%;
+    float: right;
+    height: 24px;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-header__submenu-link::after {
+        display: none;
+    }
+}
+
+.c-header__submenu-link:hover {
+    color: var(--color-neutral-80);
+}

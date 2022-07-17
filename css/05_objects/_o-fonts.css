@@ -1,0 +1,158 @@
+
+.o-font-h1 {
+
+    font-family: inherit;
+    font-size: 3.9rem;
+    line-height: 5.1rem;
+    color: var(--color-secondary-00);
+    text-align: left;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-h1 {
+        
+        font-size: 4.8rem;
+        line-height: 6.2rem;
+
+    }
+    
+}
+
+
+.o-font-h2 {
+
+    font-family: inherit;
+    font-size: 3.0rem;
+    line-height: 3.9rem;
+    color: var(--color-secondary-00);
+    text-align: left;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-h2 {
+        
+        font-size: 3.9rem;
+        line-height: 5.1rem;
+        
+    }
+    
+}
+
+
+.o-font-h3 {
+
+    font-family: inherit;
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+    color: var(--color-neutral-60);
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-h3 {
+        
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+        
+    }
+    
+}
+
+
+.o-font-h4 {
+
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 2.6rem;
+
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-h4 {
+        
+        font-size: 2.5rem;
+        line-height: 3.3rem;
+        
+    }
+    
+}
+
+
+.o-font-menu {
+
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+
+}
+
+
+.o-font-subtitle {
+
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    font-weight: var(--font-semi);
+
+}
+
+.o-font-resaltado {
+
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: var(--font-medium)
+
+}
+
+.o-font-resaltado-2 {
+
+    font-family: inherit;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: var(--font-medium)
+
+}
+
+.o-font-label {
+
+    font-family: inherit;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: var(--font-semi);
+
+}
+
+.o-font-body-1 {
+
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: var(--font-regular)
+
+}
+
+.o-font-body-2 {
+
+    font-family: inherit;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: var(--font-regular);
+
+}
+
+.o-font-caption {
+
+    font-family: inherit;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    font-weight: var(--font-regular);
+
+}

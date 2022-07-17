@@ -1,0 +1,28 @@
+:root {
+    --color-primary-00: #F7931D;
+    --color-primary-10: #DE841A;
+    --color-primary-20: #C67617;
+    --color-primary-40: #945811;
+    --color-primary-60: #633B0C;
+    --color-primary-80: #311D06;
+    --color-secondary-00: #083D4E;
+    --color-secondary-10: #073746;
+    --color-secondary-20: #06313E;
+    --color-secondary-40: #05252F;
+    --color-secondary-60: #03181F;
+    --color-secondary-80: #020C10;
+    --color-neutral-00: #FFFFFF;
+    --color-neutral-05: #F2F2F2;
+    --color-neutral-10: #E6E6E6;
+    --color-neutral-20: #CDCDCD;
+    --color-neutral-40: #9A9A9A;
+    --color-neutral-60: #686868;
+    --color-neutral-80: #282828;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi: 600;
+    --font-bold: 700;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');

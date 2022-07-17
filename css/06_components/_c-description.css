@@ -1,0 +1,112 @@
+.c-description__wrapper {
+    width: 89%;
+    margin: 20px auto 40px;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-description__wrapper {
+        width: 100%;
+    }
+}
+
+.c-description__title-wrapper {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-description__title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .c-description__title--secundary {
+        margin-bottom: 10px;
+    }
+}
+
+.c-description__subtitle-wrapper {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-description__subtitle {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.c-description__item-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-description__item-wrapper {
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+}
+
+.c-description__image-wrapper {
+    width: 36.5%;
+}
+
+.c-description__image {
+    display: flex;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-description__image {
+        display: none;
+    }
+}
+
+.c-description__image--desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-description__image--desktop {
+        display: flex;
+    }
+}
+
+.c-description__paragraph-wrapper {
+    width: 57.6%;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-description__paragraph-wrapper {
+        width: 50%;
+    }
+}
+
+.c-description__paragraph {
+    margin-bottom: 10px;
+}
+
+.c-description__list {
+    list-style: circle;
+    padding-left: 8%;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-description__list {
+        padding-left: 4%;
+    }
+}
+
+.c-hero__description--tel {
+    color: var(--color-primary-00);
+    margin-top: 15px;
+}
+
+.c-hero__description--tel-link {
+    color: var(--color-primary-20);
+}

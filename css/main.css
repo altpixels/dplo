@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*SETTINGS*/
+@import "01_settings/_settings.css";
+
+/*TOOLS*/
+@import "02_tools/_functions.css";
+@import "02_tools/_mixings.css";
+
+/*GENERIC*/
+@import "03_generic/_generic.css";
+
+/*TAGS*/
+@import "04_tags/_tags.css";
+
+/*OBJECTS*/
+@import "05_objects/_o-container.css";
+@import "05_objects/_o-fonts.css";
+
+/*COMPONENTS*/
+@import "06_components/_c-header.css";
+@import "06_components/_c-dropdown.css";
+@import "06_components/_c-hero.css";
+@import "06_components/_c-systems.css";
+@import "06_components/_c-instalations.css";
+@import "06_components/_c-footer.css";
+@import "06_components/_c-form.css";
+@import "06_components/_c-button.css";
+@import "06_components/_c-card.css";
+@import "06_components/_c-description.css";
+@import "06_components/_c-gallery.css";
+
+/*UTILITIES*/
+@import "07_utilities/_utilities.css";
