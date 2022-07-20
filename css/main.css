@@ -13,6 +13,9 @@
 /*TAGS*/
 @import "04_tags/_tags.css";
 
+/*KEYFRAMES*/
+@import "05_keyframes/_keyframes.css";
+
 /*OBJECTS*/
 @import "05_objects/_o-container.css";
 @import "05_objects/_o-fonts.css";

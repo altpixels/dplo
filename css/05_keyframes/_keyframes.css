@@ -1,0 +1,66 @@
+@keyframes hero-home-desktop {
+    0%{
+		background-image: url('../../imagenes/familia-en-sala-hero-bg-l.jpg');
+	}
+	25%{
+		background-image: url('../../imagenes/familia-en-sala-hero-bg-l.jpg');
+	}
+
+
+	26%{
+		background-image: url('../../imagenes/manos-frente-radiador-hero-bg-l.jpg');
+	}
+	50%{
+		background-image: url('../../imagenes/manos-frente-radiador-hero-bg-l.jpg');
+	}
+
+
+	51%{
+		background-image: url('../../imagenes/familia-sobre-piso-radiante-hero-bg-l.jpg');
+	}
+	75%{
+		background-image: url('../../imagenes/familia-sobre-piso-radiante-hero-bg-l.jpg');
+	}
+	
+
+	76%{
+		background-image: url('../../imagenes/mujer-radiador-hero-bg-l.jpg');
+	}
+	100%{
+		background-image: url('../../imagenes/mujer-radiador-hero-bg-l.jpg');
+	}
+}
+
+
+@keyframes hero-home-mobile {
+    0%{
+		background-image: url('../../imagenes/familia-en-sala-hero-bg-m.jpg');
+	}
+	25%{
+		background-image: url('../../imagenes/familia-en-sala-hero-bg-m.jpg');
+	}
+
+
+	26%{
+		background-image: url('../../imagenes/manos-frente-radiador-hero-bg-m.jpg');
+	}
+	50%{
+		background-image: url('../../imagenes/manos-frente-radiador-hero-bg-m.jpg');
+	}
+
+
+	51%{
+		background-image: url('../../imagenes/familia-sobre-piso-radiante-hero-bg-m.jpg');
+	}
+	75%{
+		background-image: url('../../imagenes/familia-sobre-piso-radiante-hero-bg-m.jpg');
+	}
+	
+
+	76%{
+		background-image: url('../../imagenes/mujer-radiador-hero-bg-m.jpg');
+	}
+	100%{
+		background-image: url('../../imagenes/mujer-radiador-hero-bg-m.jpg');
+	}
+}

@@ -1,10 +1,41 @@
+.c-hero {
+    background-color: var(--color-primary-60);
+    background: url('../../imagenes/familia-en-sala-hero-bg-m.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    position: relative;
+    height: calc(90vh);
+    animation: hero-home-mobile 25s infinite ease-in;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .c-hero {
+        background: url('../../imagenes/familia-en-sala-hero-bg-l.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: calc(75vh);
+        animation: hero-home-desktop 25s infinite ease-in;
+    }
+
+}
+
 .c-hero__wrapper {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
-    margin: 30px auto 0;
-    width: 89%;
+    margin: 0 auto;
+    /*width: 89%;*/
+    height: 100%;
+    background-color: rgb(5, 37, 47, .5);
 }
 
 @media only screen and (min-width: 720px) {
@@ -19,14 +50,15 @@
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
-    margin-bottom: 20px;
+    width: 90%;
+    margin: auto;
 }
 
 @media only screen and (min-width: 720px) {
     .c-hero__text {
-        margin-bottom: 0;
-        width: 50.6%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
     }
 }
 

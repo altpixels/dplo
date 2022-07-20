@@ -16,10 +16,10 @@
 
 @media only screen and (min-width: 720px) {
     .c-systems {
-        width: 92%;
+        width: 90%;
         margin: auto auto 40px;
-        box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
-        /* border-radius: 6px; */
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 0 0 15px 15px;
     }
 }
 

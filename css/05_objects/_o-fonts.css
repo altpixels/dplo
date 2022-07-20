@@ -20,6 +20,24 @@
     
 }
 
+.o-font-h1--home {
+    color: var(--color-neutral-00);
+    text-align: center;
+    font-size: 3.25rem;
+    line-height: 4.55rem;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .o-font-h1--home {
+        
+        font-size: 3.75rem;
+        line-height: 5rem;
+
+    }
+    
+}
 
 .o-font-h2 {
 
