@@ -35,7 +35,6 @@
     margin: 0 auto;
     /*width: 89%;*/
     height: 100%;
-    background-color: rgb(5, 37, 47, .5);
 }
 
 @media only screen and (min-width: 720px) {
@@ -45,8 +44,8 @@
     }
 }
 
-.c-hero__wrapper {
-    
+.c-hero__wrapper--background {
+    background-color: rgb(5, 37, 47, .5);    
 }
 
 .c-hero__text {
