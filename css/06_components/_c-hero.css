@@ -53,12 +53,24 @@
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 720px) {
+    .c-hero__text {
+        margin-bottom: 0;
+        width: 50.6%;
+    }
+}
+
+.c-hero__text--home {
     width: 90%;
     margin: auto;
 }
 
 @media only screen and (min-width: 720px) {
-    .c-hero__text {
+    .c-hero__text-home {
         margin-left: auto;
         margin-right: auto;
         width: 70%;
