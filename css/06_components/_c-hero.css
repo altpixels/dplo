@@ -1,4 +1,4 @@
-.c-hero {
+.c-hero--home {
     background-color: var(--color-primary-60);
     background: url('../../imagenes/familia-en-sala-hero-bg-m.jpg');
     background-position: center center;
@@ -16,7 +16,7 @@
 
 @media only screen and (min-width: 720px) {
 
-    .c-hero {
+    .c-hero--home {
         background: url('../../imagenes/familia-en-sala-hero-bg-l.jpg');
         background-position: center center;
         background-repeat: no-repeat;
@@ -43,6 +43,10 @@
         flex-flow: row nowrap;
         width: 100%;
     }
+}
+
+.c-hero__wrapper {
+    
 }
 
 .c-hero__text {
