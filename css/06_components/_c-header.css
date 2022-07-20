@@ -5,6 +5,7 @@
     align-items: center;
     width: 89%;
     margin-top: 15px;
+    margin-bottom: 15px;;
 }
 
 @media only screen and (min-width: 720px) {
@@ -204,10 +205,10 @@
     .c-header__submenu-items-wrapper {
         /* display: none; */
         position: absolute;
-        top: 80px;
+        top: 105px;
         opacity: 0;
         visibility: hidden;
-        background-color: rgb(255, 255, 255, .95);
+        /* background-color: rgb(255, 255, 255, .95); */
         transition: top .3s;
         z-index: 1;
     }
@@ -233,7 +234,11 @@
 @media only screen and (min-width: 720px) {
     .c-header__submenu-link {
         height: 60px;
-        padding-left: 0;
+        padding: 1.5rem;
+        background-color: var(--color-neutral-00);
+        margin: 5px auto;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     }
 }
 
