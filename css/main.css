@@ -19,6 +19,7 @@
 /*OBJECTS*/
 @import "05_objects/_o-container.css";
 @import "05_objects/_o-fonts.css";
+@import "05_objects/_o-main.css";
 
 /*COMPONENTS*/
 @import "06_components/_c-header.css";
