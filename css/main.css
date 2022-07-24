@@ -33,6 +33,7 @@
 @import "06_components/_c-card.css";
 @import "06_components/_c-description.css";
 @import "06_components/_c-gallery.css";
+@import "06_components/_c-brands.css";
 
 /*UTILITIES*/
 @import "07_utilities/_utilities.css";

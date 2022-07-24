@@ -1,3 +1,27 @@
+.c-instalations--home {
+    background: url('../../imagenes/instalaciones-background--orange.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--color-primary-10);
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1300px) {
+    .c-instalations--home {
+        background: url('../../imagenes/instalaciones-background--orange.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
 .c-instalations__wrapper {
     display: flex;
     flex-flow: column wrap;

@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.c-button__wrapper--home {
+    margin: 0;
+}
+
 .c-button--primary {
     display: inline-block;
     color: var(--color-neutral-05);
@@ -51,4 +55,14 @@
 .c-button--secundary:hover {
     color: var(--color-neutral-60);
     border-color: var(--color-neutral-20);
+}
+
+.c-button--secundary-home {
+    color: var(--color-neutral-00);
+    border-color: var(--color-neutral-00);
+}
+
+.c-button--secundary-home:hover {
+    color: var(--color-neutral-05);
+    border-color: var(--color-neutral-10);
 }

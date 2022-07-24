@@ -29,6 +29,10 @@
 @media only screen and (min-width: 720px) {
     .c-gallery__link {
         width: 23%;
+        overflow: hidden;
+    }
+    .c-gallery__link:hover {
+        transform: scale(1.2);
     }
 }
 
@@ -49,5 +53,6 @@
 @media only screen and (min-width: 720px) {
     .c-gallery__image--desktop {
         display: flex;
+        transition: 0.5s;
     }
 }

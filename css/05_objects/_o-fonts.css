@@ -60,6 +60,9 @@
     
 }
 
+.o-font-h2--white {
+    color: var(--color-neutral-00);
+}
 
 .o-font-h3 {
 
