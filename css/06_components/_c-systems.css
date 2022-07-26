@@ -120,13 +120,13 @@
     width: 50%;
 }
 
-.c-systems__item-text-wrapper:hover {
+/* .c-systems__item-text-wrapper:hover {
     color: var(--color-primary-00);
 }
 
 .c-systems__item-text-wrapper:active {
     color: var(--color-primary-00);
-}
+} */
 
 .c-systems__item-icon-wrapper {
     width: 7.1%;

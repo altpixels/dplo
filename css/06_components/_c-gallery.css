@@ -23,7 +23,10 @@
 }
 
 .c-gallery__link {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
     width: 45.5%;
+    transition: 0.75s;
 }
 
 @media only screen and (min-width: 720px) {
@@ -31,6 +34,10 @@
         width: 23%;
         overflow: hidden;
     }
+}
+
+.c-gallery__link:hover {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 .c-gallery__image {
@@ -54,6 +61,5 @@
 @media only screen and (min-width: 720px) {
     .c-gallery__image--desktop {
         display: flex;
-        transition: 0.5s;
     }
 }
