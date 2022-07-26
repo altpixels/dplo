@@ -81,7 +81,11 @@
     border-bottom: solid 1px #CDCDCD;
     padding-left: 5%;
     padding-right: 5%;
-    transition: ease-in-out .3s;
+    transition: 0.1s;
+}
+
+.c-systems__item:hover {
+    transform: scale(1.075);
 }
 
 @media only screen and (min-width: 720px) {
