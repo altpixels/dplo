@@ -6,7 +6,7 @@ $vcoment=$_POST['comentario'];
 if(($vnombre!="")&&($vtel!="")&&($vemail!="")&&($vcoment!="")){
 
     $asunto="";
-    $asunto="Mensaje desde el sitio web";
+    $asunto="Mensaje desde el sitio web de Diarplo";
     $headers="";
     $headers="Content-type: text/html; charset=UTF-8\r\n"; //para el envío en formato HTML 
     $headers.="MIME-Version: 1.0\r\n"; 
