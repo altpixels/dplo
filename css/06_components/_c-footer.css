@@ -150,3 +150,19 @@
     padding: 4px 2%;
     margin-bottom: 25px;
 }
+
+.c-footer__contact-phone-number a {
+    color: var(--color-neutral-00);
+}
+
+.c-footer__contact-phone-number a:hover {
+    color: var(--color-neutral-00);
+}
+
+.c-footer__contact-phone-number a:active {
+    color: var(--color-neutral-00);
+}
+
+.c-footer__contact-phone-number a:visited {
+    color: var(--color-neutral-00);
+}
