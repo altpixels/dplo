@@ -43,7 +43,7 @@ if(($vnombre!="")&&($vtel!="")&&($vemail!="")&&($vcoment!="")){
                     </body>
                 </html>";
 
-    mail("azaelv85@gmail.com",$asunto,$cuerpo,$headers);
+    mail("a.villalobos@yugen.com.mx",$asunto,$cuerpo,$headers);
     header("location: https://diarplo.com.mx/agradecimiento.html");
 	
 	}
