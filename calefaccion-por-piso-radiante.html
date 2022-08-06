@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistemas de calefacción por piso radiante - Diarplo</title>
     <script src="https://kit.fontawesome.com/eab1a3446e.js" crossorigin="anonymous"></script>
+
+    <!--Estilos para librería animación al hacer scroll: Animate on scroll (https://michalsnik.github.io/aos/)-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="imgs/x-icon" href="imagenes/icono-diarplo.png"/>
 
@@ -42,7 +46,7 @@
             <div class="c-hero__wrapper o-container">
 
                 <!--Texto hero-->
-                <div class="c-hero__text">
+                <div data-aos="fade-right" class="c-hero__text">
                     <div class="c-hero__title-wrapper">
                         <h1 class="c-hero__title o-font-h1">
                             Sistema de calefacción por piso radiante
@@ -56,7 +60,7 @@
                 </div>
 
                 <!--Imagen hero-->
-                <div class="c-hero__image-wrapper c-hero__image-wrapper--sections">
+                <div data-aos="fade-left" class="c-hero__image-wrapper c-hero__image-wrapper--sections">
                     <img class="c-hero__image" src="./imagenes/sistema-suelo-radiante-mob.jpg" alt="Calefacción por piso radiante">
                     <img class="c-hero__image c-hero__image--desktop" src="./imagenes/sistema-suelo-radiante-des.jpg" alt="Calefacción por piso radiante">
                 </div>
@@ -301,6 +305,16 @@
     
     <!--FOOTER-->
     <!--#include virtual="includes/footer.html" -->
+
+    <!--Librería JS animación al hacer scroll: Animate on scroll (https://michalsnik.github.io/aos/)-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Inicializa el script-->
+    <script>
+        AOS.init({
+            duration: 750,
+            once: true
+        });
+    </script>
     
 </body>
 </html>

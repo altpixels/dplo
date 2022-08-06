@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipos de instalación para sistemas de calefacción - Diarplo</title>
     <script src="https://kit.fontawesome.com/eab1a3446e.js" crossorigin="anonymous"></script>
+
+    <!--Estilos para librería animación al hacer scroll: Animate on scroll (https://michalsnik.github.io/aos/)-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="imgs/x-icon" href="imagenes/icono-diarplo.png"/>
 
@@ -42,13 +46,13 @@
             <div class="c-hero__wrapper o-container">
 
                 <!--Texto hero-->
-                <div class="c-hero__text">
+                <div data-aos="fade-right" class="c-hero__text">
                     <div class="c-hero__title-wrapper">
                         <h1 class="c-hero__title o-font-h1">
                             Equipos de instalación para sistemas de calefacción
                         </h1>
                     </div>
-                    <div class="c-hero__description-wrapper">
+                    <div data-aos="fade-left" class="c-hero__description-wrapper">
                         <p class="c-hero__description o-font-resaltado">
                             En Diarplo te ofrecemos los componentes esenciales para realizar instalaciones de calefacción por piso radiante, encuentra la tubería, calderas, termostatos, equipos de regulación y más; los productos que ofrecemos son de alta calidad para garantizar su funcionamiento en tu instalación.
                         </p>
@@ -56,7 +60,7 @@
                 </div>
 
                 <!--Imagen hero-->
-                <div class="c-hero__image-wrapper c-hero__image-wrapper--sections">
+                <div data-aos="fade-left" class="c-hero__image-wrapper c-hero__image-wrapper--sections">
                     <img class="c-hero__image" src="./imagenes/equipos-calefaccion-componentes.jpg" alt="Equipos de instalación para sistemas de calefacción">
                     <img class="c-hero__image c-hero__image--desktop" src="./imagenes/equipos-calefaccion-componentes-des.jpg" alt="Equipos de instalación para sistemas de calefacción">
                 </div>
@@ -545,6 +549,16 @@
     
     <!--FOOTER-->
     <!--#include virtual="includes/footer.html" -->
+
+    <!--Librería JS animación al hacer scroll: Animate on scroll (https://michalsnik.github.io/aos/)-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Inicializa el script-->
+    <script>
+        AOS.init({
+            duration: 750,
+            once: true
+        });
+    </script>
     
 </body>
 </html>
