@@ -123,6 +123,7 @@
     display: none;
     flex-flow: column nowrap;
     width: 100%;
+    transition: all 1s ease;
     /*margin-bottom: 30px;*/
 }
 
@@ -137,7 +138,6 @@
 
 [id^=btn]:checked + ul {
     display: block;
-    transition: ease-in-out .3s;
 }
 
 .c-header__menu-item:hover > ul {
