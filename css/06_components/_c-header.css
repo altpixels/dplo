@@ -1,18 +1,26 @@
+.c-header {
+    background-color: var(--color-neutral-00);
+    background: url('../../imagenes/header-gb-03.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .c-header__wrapper {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
     width: 89%;
-    margin-top: 15px;
-    margin-bottom: 25px;
+    padding-top: 15px;
+    /*margin-bottom: 25px;*/
 }
 
 @media only screen and (min-width: 720px) {
     .c-header__wrapper {
         flex-direction: row;
         width: 100%;
-        margin-bottom: 15px;
+        padding-bottom: 15px;
     }
 }
 
