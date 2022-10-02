@@ -4,6 +4,8 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: solid 2px var(--color-secondary-00);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .c-header__wrapper {
@@ -149,7 +151,7 @@
 }
 
 .c-header__menu-item:hover > ul {
-    top: 50px;
+    top: 75px;
     opacity: 1;
     visibility: visible;
 }
@@ -214,7 +216,7 @@
     .c-header__submenu-items-wrapper {
         /* display: none; */
         position: absolute;
-        top: 105px;
+        top: 155px;
         opacity: 0;
         visibility: hidden;
         /* background-color: rgb(255, 255, 255, .95); */
@@ -248,6 +250,7 @@
         margin: 5px auto;
         border-radius: 5px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        border: solid 1px var(--color-secondary-10);
     }
 }
 
